@@ -49,6 +49,7 @@ export default ( Genie ) ->
     Genie.write await replace configuration
 
   Genie.before "build", "drn:replace"
+  Genie.before "publish", "drn:replace"
 
 
 
