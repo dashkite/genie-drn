@@ -4,6 +4,7 @@ import { load } from "@dashkite/drn-loader"
 import * as H from "@dashkite/masonry-hooks"
 import Glob from "micromatch"
 import YAML from "js-yaml"
+import Zephyr from "@dashkite/zephyr"
 
 defaults =
   glob: "./**/*.{yaml,json}"
@@ -46,6 +47,7 @@ export default ( Genie ) ->
             ]
 
   Genie.define "drn:replace", ->
+    Zephyr.clear()
     Genie.write await replace configuration
 
   Genie.before "build", "drn:replace"
