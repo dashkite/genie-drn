@@ -1,10 +1,8 @@
 import * as Fn from "@dashkite/joy/function"
-import { replace } from "@dashkite/drn"
 import { load } from "@dashkite/drn-loader"
 import * as H from "@dashkite/masonry-hooks"
 import Glob from "micromatch"
 import YAML from "js-yaml"
-import Zephyr from "@dashkite/zephyr"
 
 defaults =
   glob: "./**/*.{yaml,json}"
@@ -26,6 +24,7 @@ export default ( Genie ) ->
   H.register "read", ( context ) ->
     if match context.source.path, options.glob
       context.input = await do ->
+        { replace } = await import( "@dashkite/drn" )
         switch context.source.extension
           when ".json"
             do Fn.flow [
@@ -47,6 +46,8 @@ export default ( Genie ) ->
             ]
 
   Genie.define "drn:replace", ->
+    { replace } = await import( "@dashkite/drn" )
+    { Zephyr } = await import( "@dashkite/zephyr" )
     Zephyr.clear()
     Genie.write await replace configuration
 
