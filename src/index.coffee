@@ -51,8 +51,8 @@ export default ( Genie ) ->
     Zephyr.clear()
     Genie.write await replace configuration
 
-  Genie.before "build", "drn:replace"
-  Genie.before "publish", "drn:replace"
+  Genie.before "build", "drn:replace--"
+  Genie.before "publish", "drn:replace--"
 
 
 
