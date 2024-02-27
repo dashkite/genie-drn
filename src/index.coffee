@@ -53,6 +53,7 @@ export default ( Genie ) ->
 
   Genie.before "build", "drn:replace--"
   Genie.before "publish", "drn:replace--"
+  Genie.before "deploy", "drn:replace--"
 
 
 
