@@ -44,7 +44,7 @@
     "@dashkite/drn": "link:../drn",
     "@dashkite/drn-loader": "link:../drn-loader",
     "@dashkite/masonry-hooks": "link:../masonry-hooks",
-    "@dashkite/zephyr": "link:../zephyr",
+    "@dashkite/zephyr": "0.3.0",
     "js-yaml": "^4.1.0",
     "micromatch": "^4.0.5"
   }
