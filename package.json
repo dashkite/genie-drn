@@ -41,7 +41,7 @@
     "@dashkite/genie-release": "^0.2.4"
   },
   "dependencies": {
-    "@dashkite/drn": "link:../drn",
+    "@dashkite/drn": "0.2.0",
     "@dashkite/drn-loader": "link:../drn-loader",
     "@dashkite/masonry-hooks": "0.1.0",
     "@dashkite/zephyr": "0.3.0",
