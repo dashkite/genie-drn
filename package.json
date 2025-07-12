@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@dashkite/drn": "0.2.0",
-    "@dashkite/drn-loader": "link:../drn-loader",
+    "@dashkite/drn-loader": "0.1.0",
     "@dashkite/masonry-hooks": "0.1.0",
     "@dashkite/zephyr": "0.3.0",
     "js-yaml": "^4.1.0",
