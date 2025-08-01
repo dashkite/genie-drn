@@ -13,7 +13,7 @@ match = ( path, glob ) ->
 export default ( Genie ) ->
 
   # load DRN resolvers
-  await do load
+  await load Genie.get "drn"
 
   # save the original configuration
   configuration = structuredClone do Genie.read

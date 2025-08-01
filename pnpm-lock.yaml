@@ -12,8 +12,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       '@dashkite/drn-loader':
-        specifier: 0.7.0
-        version: 0.7.0
+        specifier: link:../drn-loader
+        version: link:../drn-loader
       '@dashkite/masonry-hooks':
         specifier: 0.8.0
         version: 0.8.0
@@ -613,9 +613,6 @@ packages:
   '@dashkite/base64@1.0.1':
     resolution: {integrity: sha512-7O3HajSgWaie/kme1bcdXQnVsMXn4A5m9YOaxWnEZ8z9LCrnJ8BGnpTgFJUqSC4mv0Z/0NBcwTmeGCoEc9VYoA==}
 
-  '@dashkite/drn-loader@0.7.0':
-    resolution: {integrity: sha512-40Hg1xVvXQkwp/cEmKyUT4o7r1jRyxWjleZkMQLbJbNoAfnrInyhaDB7iH9uN3VxMyIHS3hwGFx7s1rNGihZcA==}
-
   '@dashkite/drn@0.8.0':
     resolution: {integrity: sha512-LoiRbCzoD+5ZlUgf8pdP6VNQFF5ghYLntX6QTrbSBnUNVNG4lFa/6qaqm6pydDitmUh0KNrMYzmLY5xnICr0zw==}
 
@@ -946,7 +943,6 @@ packages:
 
   bun@1.2.19:
     resolution: {integrity: sha512-P70KUfH9cvgcl8Hjvamr98NinEatV23yX6qaY7z1+3rBPdds0oVX0u6FfrYnWc8F3ayFQ4do6/6xBLWY4itJkQ==}
-    cpu: [arm64, x64, aarch64]
     os: [darwin, linux, win32]
     hasBin: true
 
@@ -2238,8 +2234,6 @@ snapshots:
       '@dashkite/utf8': 1.0.1
 
   '@dashkite/base64@1.0.1': {}
-
-  '@dashkite/drn-loader@0.7.0': {}
 
   '@dashkite/drn@0.8.0':
     dependencies:
