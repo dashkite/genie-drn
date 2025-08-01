@@ -12,8 +12,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       '@dashkite/drn-loader':
-        specifier: link:../drn-loader
-        version: link:../drn-loader
+        specifier: 0.11.2
+        version: 0.11.2
       '@dashkite/masonry-hooks':
         specifier: 0.8.0
         version: 0.8.0
@@ -612,6 +612,9 @@ packages:
 
   '@dashkite/base64@1.0.1':
     resolution: {integrity: sha512-7O3HajSgWaie/kme1bcdXQnVsMXn4A5m9YOaxWnEZ8z9LCrnJ8BGnpTgFJUqSC4mv0Z/0NBcwTmeGCoEc9VYoA==}
+
+  '@dashkite/drn-loader@0.11.2':
+    resolution: {integrity: sha512-uPGhrgOByZ75wpZ8HrqgMGFY8XtvUxeFxVm3sQnpoLD4eXJI1pLA/3473JYL6Wty5te6pm0jjE8ca28mOdjqsA==}
 
   '@dashkite/drn@0.8.0':
     resolution: {integrity: sha512-LoiRbCzoD+5ZlUgf8pdP6VNQFF5ghYLntX6QTrbSBnUNVNG4lFa/6qaqm6pydDitmUh0KNrMYzmLY5xnICr0zw==}
@@ -2234,6 +2237,8 @@ snapshots:
       '@dashkite/utf8': 1.0.1
 
   '@dashkite/base64@1.0.1': {}
+
+  '@dashkite/drn-loader@0.11.2': {}
 
   '@dashkite/drn@0.8.0':
     dependencies:
