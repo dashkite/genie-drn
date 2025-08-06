@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dashkite/drn':
-        specifier: ^0.12.10
-        version: 0.12.10
+        specifier: ^0.12.11
+        version: 0.12.11
       '@dashkite/drn-loader':
         specifier: ^0.11.9
         version: 0.11.9
@@ -616,8 +616,8 @@ packages:
   '@dashkite/drn-loader@0.11.9':
     resolution: {integrity: sha512-ud5p/6/6xS2fwzB6afTY0TsgMfq5wDfnoYg4U9Ziv2Ejj/ab3yIo/jOWPcsmma+DkG+gdH3FDSEOqcV5jDbsvA==}
 
-  '@dashkite/drn@0.12.10':
-    resolution: {integrity: sha512-EZWqUa0sQszoiR/P+unIQDEk50jjlWVYYeuldDbh01Fs0XwgaF7iXN48OBsmJcp4ApGM5MlyG6SE2hmOkcPGbw==}
+  '@dashkite/drn@0.12.11':
+    resolution: {integrity: sha512-s8aOOq+yXx/qKv8zJ7sooVw/70+2mGfWldZ7IEKH4DmAxvu8oLHPIv3rJL2WLlU1xVbFWcYTwitgtHuUET5tCg==}
 
   '@dashkite/genie-clean@0.9.0':
     resolution: {integrity: sha512-cR5IaFycabxIOH0XrExG5DCrm91milsdPqt104+AcIFEtpthwQ55lgOkS660tC8l7SxnwZzMZbZxHP3oK0iT0A==}
@@ -2186,7 +2186,7 @@ snapshots:
 
   '@dashkite/drn-loader@0.11.9': {}
 
-  '@dashkite/drn@0.12.10':
+  '@dashkite/drn@0.12.11':
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/joy': 0.7.0
