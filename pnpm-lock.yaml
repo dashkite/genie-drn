@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@dashkite/drn':
-        specifier: ^0.12.12
-        version: 0.12.12
+        specifier: ^0.12.13
+        version: 0.12.13
       '@dashkite/drn-loader':
-        specifier: ^0.11.10
-        version: 0.11.10
+        specifier: ^0.11.11
+        version: 0.11.11
       '@dashkite/masonry-hooks':
         specifier: ^0.8.0
         version: 0.8.0
@@ -37,8 +37,8 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0
       '@dashkite/genie':
-        specifier: ^0.20.10
-        version: 0.20.10
+        specifier: ^0.20.11
+        version: 0.20.11
       '@dashkite/genie-clean':
         specifier: ^0.9.0
         version: 0.9.0
@@ -613,11 +613,11 @@ packages:
   '@dashkite/base64@1.0.1':
     resolution: {integrity: sha512-7O3HajSgWaie/kme1bcdXQnVsMXn4A5m9YOaxWnEZ8z9LCrnJ8BGnpTgFJUqSC4mv0Z/0NBcwTmeGCoEc9VYoA==}
 
-  '@dashkite/drn-loader@0.11.10':
-    resolution: {integrity: sha512-eYDg2FvzUjA7qW0zsV+u/3nA+2Mg4LVKB9F9gU+BMSOx9wz+PFFwJnqeBWS8r7eRVTyxEg7DdqXNYlVxYyH9ag==}
+  '@dashkite/drn-loader@0.11.11':
+    resolution: {integrity: sha512-+8PVQ7hQcvlNaSu015yglk3Mp+HJbTec0jXxTZYKxGTSSrTBgL9fg8DVuYO2fxxDZBTkxwtTnXPYGcubhR6Xmw==}
 
-  '@dashkite/drn@0.12.12':
-    resolution: {integrity: sha512-+dYN4LJX2z4RMagLG9DwfGjzLM48Muu3JtfONKR/jsCpTkjqNFH3Mu6NxKx6t1GpdKrGJJWxWaf0LG9xl6rONw==}
+  '@dashkite/drn@0.12.13':
+    resolution: {integrity: sha512-jtlLdLfWU5DiCsQVbhFxq3iFeO0/g+EpY+zBFnTlVc286PppmfxjgyVwnyTq/d5rVxxLzkqr2juWR9pX81iU3Q==}
 
   '@dashkite/genie-clean@0.9.0':
     resolution: {integrity: sha512-cR5IaFycabxIOH0XrExG5DCrm91milsdPqt104+AcIFEtpthwQ55lgOkS660tC8l7SxnwZzMZbZxHP3oK0iT0A==}
@@ -628,8 +628,8 @@ packages:
   '@dashkite/genie-release@0.4.3':
     resolution: {integrity: sha512-9qqf7L80jmrRDPw0vhb475ed3hMDPWU782pH0bos4DdjyyObVHZePf26tgaeO9YSaFu4UC/RURxKKh+XmlqOIw==}
 
-  '@dashkite/genie@0.20.10':
-    resolution: {integrity: sha512-Ir9aw5anu9t2F0tlIfmauT1ofKzU2kGpxVfc4bnW9t+Uz7SrIrC4sauX+r/2PzrkXk/gRAhuKT7VKTz+SlYcqw==}
+  '@dashkite/genie@0.20.11':
+    resolution: {integrity: sha512-IVZs3Kiso/BmiDr5wHza8aeAjWvGfbxXxdmn4sV6iQrpo/Bsv3A/1Gbcblc7fhXzvwtTtG2x0ASlvpcSVyz3Pw==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -2184,9 +2184,9 @@ snapshots:
 
   '@dashkite/base64@1.0.1': {}
 
-  '@dashkite/drn-loader@0.11.10': {}
+  '@dashkite/drn-loader@0.11.11': {}
 
-  '@dashkite/drn@0.12.12':
+  '@dashkite/drn@0.12.13':
     dependencies:
       '@dashkite/bake': 0.0.6
       '@dashkite/joy': 0.7.0
@@ -2219,7 +2219,7 @@ snapshots:
       '@dashkite/zephyr': 0.12.1
       dax-sh: 0.43.2
 
-  '@dashkite/genie@0.20.10':
+  '@dashkite/genie@0.20.11':
     dependencies:
       '@dashkite/joy': 0.7.0
       '@dashkite/kaiko': 0.3.3
