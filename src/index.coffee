@@ -21,7 +21,8 @@ export default ( Genie ) ->
   options = { defaults..., ( Genie.get "drn" )... }
   
   # register read handler to perform replacement
-  H.register "read", ( context ) ->
+  H.register "read", Fn.tee ( context ) ->
+    console.log "read hook for genie-drn"
     if match context.source.path, options.glob
       context.input = await do ->
         { replace } = await import( "@dashkite/drn" )
