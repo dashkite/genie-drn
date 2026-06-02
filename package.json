@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/genie-drn",
-  "version": "0.12.31",
+  "version": "0.12.32",
   "description": "Perform DRN replacement on Genie configurations and assets",
   "keywords": [],
   "homepage": "https://github.com/dashkite/genie-drn#readme",
